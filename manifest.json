@@ -1,0 +1,15 @@
+{
+    "short_name": "Sreya Sukhavasi Portfolio",
+    "name": "Welcome to Sreye Sukhavasi's Portfolio",
+    "icons": [
+        {
+            "src": "favicon.png",
+            "type": "image/png",
+            "sizes": "1000x1000"
+        }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+}

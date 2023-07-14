@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/personal-portfolio/static/css/main.8ea516fc.css",
+    "main.js": "/personal-portfolio/static/js/main.573bd0f2.js",
+    "static/js/787.a7f665a7.chunk.js": "/personal-portfolio/static/js/787.a7f665a7.chunk.js",
+    "static/media/bootstrap-icons.woff?": "/personal-portfolio/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
+    "static/media/Resume_Sreya_14.pdf": "/personal-portfolio/static/media/Resume_Sreya_14.e4737b02cc9f2306f18b.pdf",
+    "static/media/pic1.jpg": "/personal-portfolio/static/media/pic1.92e4571c973214b1e860.jpg",
+    "static/media/bootstrap-icons.woff2?": "/personal-portfolio/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
+    "static/media/NYCTaxi.jpg": "/personal-portfolio/static/media/NYCTaxi.dcdc9caee4156e704f07.jpg",
+    "static/media/ML.jpg": "/personal-portfolio/static/media/ML.26ff2974053d8d2ecafa.jpg",
+    "static/media/Steg.jpg": "/personal-portfolio/static/media/Steg.60715cc0b223a50373b3.jpg",
+    "static/media/DL.jpg": "/personal-portfolio/static/media/DL.b9594e05567a20ba5b42.jpg",
+    "static/media/OnlineCar.jpg": "/personal-portfolio/static/media/OnlineCar.f702559407c4d1ca3956.jpg",
+    "static/media/SER.jpg": "/personal-portfolio/static/media/SER.4f9d3583ba9308c04c5b.jpg",
+    "static/media/browserext.jpg": "/personal-portfolio/static/media/browserext.c9d40df1fa4170a97e85.jpg",
+    "index.html": "/personal-portfolio/index.html",
+    "main.8ea516fc.css.map": "/personal-portfolio/static/css/main.8ea516fc.css.map",
+    "main.573bd0f2.js.map": "/personal-portfolio/static/js/main.573bd0f2.js.map",
+    "787.a7f665a7.chunk.js.map": "/personal-portfolio/static/js/787.a7f665a7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ea516fc.css",
+    "static/js/main.573bd0f2.js"
+  ]
+}
