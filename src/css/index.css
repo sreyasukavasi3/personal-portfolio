@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&display=swap");
+
+body {
+	margin: 0;
+	font-family: "Anonymous Pro", monospace;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	background-color: #121212;
+	color: #EEEEEE;
+}
+
+#header {
+	height: 90vh;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: xxx-large;
+}
+
+section h2 {
+	font-weight: 700;
+}
+
+h3 {
+	font-size: large;
+}
+
+.chevron {
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+
+	animation-name: animate-chevron;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	transition-timing-function: ease;
+}
+
+
+@keyframes animate-chevron {
+	from {
+		transform: translateY(-25px);
+	}
+
+	to {
+		transform: translateY(0px)
+	}
+}
+
+.card {
+	background-color: black;
+}
+
+.fixed-image {
+    width: 363px; /* Example: Set the width to 200px */
+    height: 200px; /* Example: Set the height to 200px */
+    object-fit: cover; /* Optional: Maintain aspect ratio and cover the space */
+    /* Add any other styling you need */
+}
+
+.fixed-image1 {
+    width: 270px; /* Example: Set the width to 200px */
+    height: 250px; /* Example: Set the height to 200px */
+    object-fit: cover; /* Optional: Maintain aspect ratio and cover the space */
+    /* Add any other styling you need */
+}
+
+.card-work-body {
+    width: 280px; /* Example: Set the width to 200px */
+    height: 150px; /* Example: Set the height to 200px */
+    object-fit: cover; /* Optional: Maintain aspect ratio and cover the space */
+	padding-left: 15px;
+	padding-top: 5px;
+    /* Add any other styling you need */
+}
