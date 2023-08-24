@@ -12,7 +12,7 @@ const projects = [
 		"img": require('./img/projects/MERN.jpg'),
 		"title": "Science-of-Me",
 		"description": "Created 'Science-Of-Me', a streamlined MERN website hosting cognition experiments for Nobel Laureate Dr. Leland Hartwell. Utilized MongoDB, Express.js, React, and Node.js, with AWS Amplify deployment. Emphasized user-centric feature development, fostering personalized experiment versions, increased user engagement, and enhanced interactivity.",
-		"techstack": "Tech Stack: MongoDB, Express.js, React JS, Node.js, AWS Amplify, API.",
+		"techstack": "Tech Stack: MongoDB Atlas, Express.js, React JS, Node.js, AWS EC2, API.",
 		"link": "https://github.com/sreyasukavasi3/Science-of-Me",
 		// "category": "Android"
 	},
@@ -27,8 +27,8 @@ const projects = [
 	{
 		"img": require('./img/projects/OnlineCar.jpg'),
 		"title": "Online Car Parking System",
-		"description": "Developed an advanced web-based Car Parking System with real-time space monitoring, reservations, user authentication, and availability notifications.",
-		"techstack": "Tech Stack: Java, NetBeans, PostgreSQL.",
+		"description": "Designed an Online Car Parking System that enabled real-time parking management, reservations, and efficient data handling. I utilized Spring for CRUD operations on an Oracle DB, enhancing user experience by reducing retrieval times. Additionally, I incorporated secure credit card processing, facilitating seamless online transactions for payments",
+		"techstack": "Tech Stack: Java, Spring, Oracle.",
 		"link": "https://github.com/sreyasukavasi3/CarParking",
 		// "category": "Python"
 	},
