@@ -1,5 +1,5 @@
 # Sreya Sukhavasi Portfolio
 
-Available at [code.ninkuk.com](https://code.ninkuk.com/)
+Available at https://sreyasukavasi3.github.io/personal-portfolio/
 
 # 
