@@ -20,16 +20,24 @@ const projects = [
 		"img": require('./img/projects/NYCTaxi.jpg'),
 		"title": "New York City Taxi Ride Time Analysis",
 		"description": "Processed Spatio-temporal big data with Spark in the Hadoop cluster to identify NYC's top pick-up areas from taxi drop-off data, resulting in a 40% increased pick-up rate and 80% faster processing",
-		"techstack": "Tech Stack: Apache Spark, Hadoop, Python.",
+		"techstack": "Tech Stack: Apache Spark, Hadoop, Scala, Python.",
 		"link": "https://github.com/sreyasukavasi3/Hotspot-analysis-of-Geospatial-data",
 		// "category": "Android"
 	},
 	{
 		"img": require('./img/projects/OnlineCar.jpg'),
 		"title": "Online Car Parking System",
-		"description": "Designed an Online Car Parking System that enabled real-time parking management, reservations, and efficient data handling. I utilized Spring for CRUD operations on an Oracle DB, enhancing user experience by reducing retrieval times. Additionally, I incorporated secure credit card processing, facilitating seamless online transactions for payments",
-		"techstack": "Tech Stack: Java, Spring, Oracle.",
+		"description": "Designed an Online Car Parking System that enabled real-time parking management, reservations, and efficient data handling. I utilized Spring and Hibernate for CRUD operations on an MySQL, enhancing user experience by reducing retrieval times. Additionally, I incorporated secure credit card processing, facilitating seamless online transactions for payments",
+		"techstack": "Tech Stack: Java, Spring, Hibernate, MySQL.",
 		"link": "https://github.com/sreyasukavasi3/CarParking",
+		// "category": "Python"
+	},
+	{
+		"img": require('./img/projects/MedECare.jpg'),
+		"title": "Med-E-Care",
+		"description": "Revolutionized E-commerce using Python with Flask, PostgreSQL, JavaScript, HTML, and CSS for efficient procurement. Complemented by an ML and NLP chatbot for enhanced user engagement and COVID-19 data in online healthcare.",
+		"techstack": "Tech Stack: Python, Flask, PostgreSQL, JavaScript, HTML, CSS, ML, NLP.",
+		"link": "https://github.com/sreyasukavasi3/Med-E-Care_",
 		// "category": "Python"
 	},
 	{
@@ -52,7 +60,7 @@ const projects = [
 		"img": require('./img/projects/SER.jpg'),
 		"title": "Speech Emotion Recognition System",
 		"description": "Programmed a speech emotion recognition system utilizing Convolutional Neural Network (CNN) to classify individuals emotions into 6 categories with 89% accuracy using speech signal features from the RAVDESS and TESS datasets.",
-		"techstack": "Tech Stack: Python, Machine Learning, NumPy, Pandas, TensorFlow, Jupyter Notebook.",
+		"techstack": "Tech Stack: Python, Machine Learning, NumPy, Pandas, TensorFlow, PyTorch, Scikit-learn, Jupyter Notebook.",
 		"link": "https://colab.research.google.com/drive/1pE8FLzAtvirzpFPbVqBJUTZIQffhHeFQ?usp=sharing",
 		// "category": "Python"
 	},
