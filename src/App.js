@@ -4,7 +4,7 @@ import ProjectCard from "./Components/ProjectCard";
 import WorkCard from "./Components/WorkCard";
 import {categories, projects, workExperience, certifications} from './Data';
 import CertificationsCard from "./Components/CertificationsCard";
-import Resume from './Sreya_Resume.pdf'
+import Resume from './Sreya_Resume_6.pdf'
 
 
 function App() {
