@@ -29,7 +29,7 @@ const projects = [
 		"title": "Online Car Parking System",
 		"description": "Designed an Online Car Parking System that enabled real-time parking management, reservations, and efficient data handling. I utilized Spring and Hibernate for CRUD operations on an MySQL, enhancing user experience by reducing retrieval times. Additionally, I incorporated secure credit card processing, facilitating seamless online transactions for payments",
 		"techstack": "Tech Stack: Java, Spring, Hibernate, MySQL.",
-		"link": "https://github.com/sreyasukavasi3/CarParking",
+		"link": "https://github.com/sreyasukavasi3/Parking_System",
 		// "category": "Python"
 	},
 	{
