@@ -7,6 +7,83 @@ const categories = [
 	// ["C/C++", "info"]
 ]
 
+const certifications = [
+	{
+		"img": require('./img/certifications/Agile.jpg'),
+		"title": "Agile with Atlassian Jira",
+		"description": "",
+		"link": "https://www.coursera.org/account/accomplishments/verify/RZPG6MPUHLBF",
+		"date": ""
+	},
+	{
+		"img": require('./img/certifications/PostmanAPI.jpg'),
+		"title": "Postman API Fundamentals Student Expert",
+		"description": "",
+		"link": "https://badgr.com/public/assertions/Cj2MTf7URRCcB9iPiM364g?identity__email=sreyasukavasi3@gmail.com",
+		"date": ""
+	},
+	{
+		"img": require('./img/certifications/ML.jpg'),
+		"title": "Fundamentals of Machine Learning",
+		"description": "",
+		"link": "https://coursera.org/share/6d38b9c3e8d7127c30be4e9baa263a87",
+		"date": ""
+	},
+	{
+		"img": require('./img/certifications/DL.jpg'),
+		"title": "Fundamentals of Deep Learning for Computer Vision",
+		"description": "",
+		"link": "https://courses.nvidia.com/certificates/4570289b652d441db1c8a10144716ff2",
+		"date": ""
+	},
+]
+
+const workExperience = [
+	{
+		"title": "Coding and Research Aide, Arizona State University",
+      "period": "May 2022 - Dec 2023",
+      "responsibilities": [
+        "Streamlined a Full Stack REST API-based web app, hosting 14 visual cognition experiments for Noble Laureate Dr. Leland Hartwell, utilizing MongoDB Atlas, Express.js, React, and Node.js, with deployment on AWS EC2.",
+        "Orchestrated agile methodology, communicated with stakeholders to meet requirements, and executed personalized experiment versions, yielding an 87% surge in user engagement.",
+        "Integrated the file upload directly to S3 via API Gateway and Lambda function using a pre-signed URL.",
+        "Designed 30+ experiments with the professor using Python in PsychoPy, later converted to JavaScript for Pavlovia"
+      ],
+	},
+	{
+		"title": "Decision Analytics Associate, ZS Associates",
+		"period": "Jul 2021 - Dec 2021",
+		"responsibilities": [
+			"Engineered Java-based email automation application using Spring framework in test-driven development, saving $2M, cutting 24 weekly engineer hours, and reducing manual intervention for prioritized emails with 100% accuracy.",
+			"Developed a tool using Python for real-time monitoring of business alignments for 15 products, enhancing tracking efficiency and seamlessly integrating updated information.",
+			"Revamped legacy R code to Python, enhancing functionality and performance and reducing data check time by 50%.",
+			"Developed Kafka consumers to process and analyze real-time data streams, designed RESTful APIs for data retrieval and visualization, and utilized WebSocket for real-time data updates on the user interface.",
+			"Implemented event-driven functions using AWS Lambda, eliminating infrastructure management, and reducing operational time by 30%, enabling faster code execution and deployment.",
+			"Collaborated closely with 4 cross-functional teams to gather requirements, design robust software solutions, conduct code reviews, and implement using Agile methodologies, ensuring effective collaboration and timely project delivery."
+		],
+	},
+	{
+		"title": "Associate Intern, ZS Associates",
+		"period": "Jan 2021 - Jun 2021",
+		"link": "",
+		"responsibilities": [
+			"Employed SQL to extract and process 85+ complex datasets, facilitating knowledge discovery and informed decision-making. ",
+			"Architected visually appealing and interactive user interfaces using React's declarative syntax, CSS styles (CSS3), and JavaScript, with Redux for efficient state management.",
+			"Integrated Node.js, npm, React, Redux, and various React libraries to deliver 7 robust and scalable solutions.",
+			"Develop 120+ comprehensive unit tests using industry-standard testing frameworks such as JUnit, guaranteeing the functionality and integrity of individual components and modules.",
+			"Mastered Git for version control, collaborated seamlessly on GitHub, and expertly implemented CI/CD pipelines for Docker-based applications using AWS Code Pipeline or Jenkins."
+		  ],
+	},
+	// {
+	// 	"title": "Student Graphic Designer",
+	// 	"description": "",
+	// 	"startDate": "",
+	// 	"endDate": "",
+	// 	"link": "",
+	// 	"category": "Student Job"
+	// },
+]
+
+
 const projects = [
 	{
 		"img": require('./img/projects/MERN.jpg'),
@@ -29,7 +106,7 @@ const projects = [
 		"title": "Online Car Parking System",
 		"description": "Designed an Online Car Parking System that enabled real-time parking management, reservations, and efficient data handling. I utilized Spring and Hibernate for CRUD operations on an MySQL, enhancing user experience by reducing retrieval times. Additionally, I incorporated secure credit card processing, facilitating seamless online transactions for payments",
 		"techstack": "Tech Stack: Java, Spring, Hibernate, MySQL.",
-		"link": "https://github.com/sreyasukavasi3/CarParking",
+		"link": "https://github.com/sreyasukavasi3/Parking_System",
 		// "category": "Python"
 	},
 	{
@@ -38,6 +115,14 @@ const projects = [
 		"description": "Revolutionized E-commerce using Python with Flask, PostgreSQL, JavaScript, HTML, and CSS for efficient procurement. Complemented by an ML and NLP chatbot for enhanced user engagement and COVID-19 data in online healthcare.",
 		"techstack": "Tech Stack: Python, Flask, PostgreSQL, JavaScript, HTML, CSS, ML, NLP.",
 		"link": "https://github.com/sreyasukavasi3/Med-E-Care_",
+		// "category": "Python"
+	},
+	{
+		"img": require('./img/projects/todolist.jpg'),
+		"title": "To-Do List",
+		"description": "Spearheaded the development of a TypeScript-based 'To-Do List' application, featuring an array of user-friendly task management capabilities. This intuitive system enabled users to efficiently add tasks, remove them, and track their status, resulting in a significant enhancement of overall productivity.",
+		"techstack": "Tech Stack: TypeScript, Jest",
+		"link": "https://github.com/sreyasukavasi3/To_Do_List",
 		// "category": "Python"
 	},
 	{
@@ -94,72 +179,7 @@ const projects = [
 	// },
 ]
 
-const workExperience = [
-	{
-		"title": "Coding and Research Aide",
-		"description": "Employer: Arizona State University",
-		"period": "May 2022 - Present",
-		"link": "",
-		"category": "Academic Research"
-	},
-	{
-		"title": "Decision Analytics Associate",
-		"description": "Employer: ZS Associates",
-		"period": "Jul 2021 - Dec 2021",
-		"link": "",
-		"category": "Full-time"
-	},
-	{
-		"title": "Associate Intern",
-		"description": "Employer: ZS Associates",
-		"period": "Jan 2021 - Jun 2021",
-		"link": "",
-		"category": "Internship"
-	},
-	// {
-	// 	"title": "Student Graphic Designer",
-	// 	"description": "",
-	// 	"startDate": "",
-	// 	"endDate": "",
-	// 	"link": "",
-	// 	"category": "Student Job"
-	// },
-]
 
-const certifications = [
-	{
-		"img": require('./img/certifications/PostmanAPI.jpg'),
-		"title": "Postman API Fundamentals Student Expert",
-		"description": "",
-		"link": "https://badgr.com/public/assertions/Cj2MTf7URRCcB9iPiM364g?identity__email=sreyasukavasi3@gmail.com",
-		"date": ""
-	},
-	{
-		"img": require('./img/certifications/ML.jpg'),
-		"title": "Fundamentals of Machine Learning",
-		"description": "",
-		"link": "https://coursera.org/share/6d38b9c3e8d7127c30be4e9baa263a87",
-		"date": ""
-	},
-	{
-		"img": require('./img/certifications/DL.jpg'),
-		"title": "Fundamentals of Deep Learning for Computer Vision",
-		"description": "",
-		"link": "https://courses.nvidia.com/certificates/4570289b652d441db1c8a10144716ff2",
-		"date": ""
-	},
-	// {
-	// 	"img": "",
-	// 	"title": "FBLA E-Business",
-	// 	"description": "",
-	// 	"date": ""
-	// },
-	// {
-	// 	"img": "",
-	// 	"title": "FBLA Mobile Application Development",
-	// 	"description": "",
-	// 	"date": ""
-	// }
-]
 
-export {categories, projects, workExperience, certifications};
+
+export {categories, certifications, workExperience, projects};

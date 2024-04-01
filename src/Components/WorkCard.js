@@ -7,6 +7,11 @@ function WorkCard(props) {
 				<h5 className="card-title">{props.work.title}</h5>
 				<p className="card-text">{props.work.description}</p>
 				<p className="card-period">{props.work.period}</p>
+				{/* <ul>
+          {props.work.responsibilities.map((responsibility, index) => (
+            <li key={index}>{responsibility}</li>
+          ))}
+        </ul> */}
 				{/*<a href={props.work.link} className="btn btn-primary stretched-link">Go somewhere</a>*/}
 			</div>
 		</div>

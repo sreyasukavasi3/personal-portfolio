@@ -4,7 +4,7 @@ import ProjectCard from "./Components/ProjectCard";
 import WorkCard from "./Components/WorkCard";
 import {categories, projects, workExperience, certifications} from './Data';
 import CertificationsCard from "./Components/CertificationsCard";
-import Resume from './Sreya_Resume.pdf'
+
 
 
 function App() {
@@ -41,14 +41,16 @@ function App() {
 									<a className="nav-link" href="#about">About</a>
 								</li>
 								<li className="nav-item">
-									<a className="nav-link" href="#projects">Projects</a>
+									<a className="nav-link" href="#certifications">Certifications</a>
 								</li>
 								<li className="nav-item">
 									<a className="nav-link" href="#work">Work</a>
 								</li>
 								<li className="nav-item">
-									<a className="nav-link" href="#certifications">Certifications</a>
+									<a className="nav-link" href="#projects">Projects</a>
 								</li>
+								
+								
 							</ul>
 						</div>
 					</div>
@@ -66,7 +68,7 @@ function App() {
 							{/*, borderBottom: "5px solid #00e676"*/}
 							{/* <h1 style={{color: "#00e676"}}>Sreya Sukhavasi</h1> */}
 							<h1 style={{color: "#7251e6"}}>Sreya Sukhavasi</h1>
-							{/*<h3>Software Engineer, </h3>*/}
+							<h3>Software Engineer, </h3>
 
 							<div className="hstack gap-3">
 								<a className="link-light" href="https://www.linkedin.com/in/sreya-sukhavasi/"
@@ -76,7 +78,7 @@ function App() {
 								<a className="link-light" href="https://github.com/sreyasukavasi3" target="_blank">
 									<i className="bi bi-github"/>
 								</a>
-								<a className="link-light" href="mailto:sreyasukavasi3@gmail.edu" target="_blank">
+								<a className="link-light" href="mailto:sreyasukavasi3@gmail.com" target="_blank">
 									<i className="bi bi-envelope"/>
 								</a>
 								<a className="link-light" href="https://www.instagram.com/sreya_sukavasi/" target="_blank">
@@ -84,9 +86,12 @@ function App() {
 								</a>
 							</div>
 
-							<a className="btn btn-outline-danger mt-4 px-5" role="button"
-							   href={Resume} download={"Sreya_Sukhavasi_Resume.pdf"}>
-								<i className="bi bi-download"/> Resume
+							<a
+								className="btn btn-outline-danger mt-4 px-5"
+								role="button"
+								// href={Resume}
+								>
+								<span>Contact me for Resume</span>
 							</a>
 						</div>
 					</div>
@@ -98,44 +103,43 @@ function App() {
 				<section id="about" className="mt-3">
 					<h2>About Me</h2>
 					<p className="lead">
-					I am a highly motivated and dedicated software developer with a unique perspective that I bring to the table. As a self-learner, I am always eager to explore new technologies and acquire fresh knowledge. 
-					With 6 months of internship and 6 months of full-time experience, 
-					I have gained valuable practical exposure in the field. 
-					My passion lies in solving real-life challenges and analyzing existing systems, 
-					envisioning innovative ways to enhance their efficiency. 
-					Continuously upgrading my skills to meet current industry requirements, 
-					I have undertaken various projects that have honed my problem-solving abilities and software engineering expertise. With a master's degree in Computer Science from Arizona State University, expected in December 2023, I am an international student ready to make a significant impact in the world of software development.
-					</p>
+  Aloha! I'm Sreya, and I recently graduated with a Master's in Computer Science from Arizona State University, proudly securing a 4.0 GPA. I’m a Software Engineer, proficient in Java, Python, JavaScript, React, HTML, and CSS.
+</p>
+<p className="lead">
+  In one of my most memorable experiences, I collaborated with Nobel Laureate Dr. Leland Hartwell, assisting in the creation of visual cognition experiments using Python and JavaScript. I streamlined a RESTful web app hosting 14 cognition experiments using a MERN stack (MongoDB, Express.js, React, and Node.js) with seamless deployment on AWS EC2. This hands-on involvement in cutting-edge research ignited my love for coding and its real-world applications.
+</p>
+<p className="lead">
+  But my journey isn't just about academic achievements. Before my U.S. adventure, I delved into the professional realm as a Decision Analytics Associate at ZS Associates. My role involved crafting internal tools using Java, Python, and React, emphasizing the importance of rigorous testing and efficient CI/CD pipelines.
+</p>
+<p className="lead">
+  Now, for the real talk. Life isn't always a smooth ride. I faced setbacks and uncertainties, just like many others. There was a time when I questioned my path. However, these challenges didn't define me; they fueled my resilience. Switching gears and navigating uncertainties has made me a stronger, more adaptable individual, both in life and in coding.
+</p>
+<p className="lead">
+  As I dive into the world of software engineering, I approach each coding challenge with the same tenacity that helped me overcome personal hurdles. My story is a testament to the belief that setbacks are not roadblocks but opportunities for growth.
+</p>
+<p className="lead">
+  In the words of Steve Jobs, 'Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work.' I'm here to make that impact, contribute to meaningful projects, and keep pushing boundaries in the world of software engineering.
+</p>
+<p className="lead">
+  I'm interested in full-time Software Engineer roles. Please feel free to get in touch with me via email at sreyasukavasi3(at)gmail(dot)com
+</p>
+
 				</section>
 
-				{/*	PROJECTS */}
-				<section id="projects" className="mt-5">
-					<h2>Projects</h2>
+				{/*	CERTIFICATIONS */}
+				<section id="certifications" className="mt-5">
+					<h2>Certifications</h2>
 
-					{/* Filters */}
-					{/* <div className="row g-2">
+					<div className="row g-2">
 						{
-							categories.map(category => (
-								<div className="col-6 col-sm-4 col-md-3 col-lg-2">
-									<button
-										className={`btn rounded-pill ${selectedCategory === category[0] ? 'btn-' : 'btn-outline-'}${category[1]} w-100 }`}
-										onClick={() => setSelectedCategory(category[0])}>
-										{category[0]}
-									</button>
+							
+							certifications.map(certifications => (
+								<div className="col-12 col-md-6 col-lg-4">
+									<CertificationsCard certifications={certifications}/>
 								</div>
 							))
 						}
-					</div> */}
-
-					{/*	PROJECTS */}
-					<div className="row g-2 mt-3">
-						{
-							getProjects().map(project => (
-								<div className="col-12 col-md-6 col-lg-3">
-									<ProjectCard project={project}/>
-								</div>
-							))
-						}
+						
 					</div>
 				</section>
 
@@ -154,20 +158,21 @@ function App() {
 					</div>
 				</section>
 
-				{/*	CERTIFICATIONS */}
-				<section id="certifications" className="mt-5">
-					<h2>Certifications</h2>
+				
 
-					<div className="row g-2">
+				{/*	PROJECTS */}
+				<section id="projects" className="mt-5">
+					<h2>Projects</h2>
+
+					{/*	PROJECTS */}
+					<div className="row g-2 mt-3">
 						{
-							
-							certifications.map(certifications => (
-								<div className="col-12 col-md-6 col-lg-4">
-									<CertificationsCard certifications={certifications}/>
+							getProjects().map(project => (
+								<div className="col-12 col-md-6 col-lg-3">
+									<ProjectCard project={project}/>
 								</div>
 							))
 						}
-						
 					</div>
 				</section>
 			</div>
